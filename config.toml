@@ -38,7 +38,7 @@ url = "https://ko-fi.com/revrost"
 
 [[languages.en.menu.main]]
 name = "Posts"
-url = "post"
+url = "posts"
 weight = 5
 
 [[languages.en.menu.main]]
