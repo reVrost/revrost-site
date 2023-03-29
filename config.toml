@@ -1,0 +1,47 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '🏠 reVrost'
+theme = 'papermod'
+Copyright = '© 2017-2023 revrost.com'
+
+[params]
+author = "Kenley Bastari"
+defaultTheme = "light" # dark, light
+ShowShareButtons = false
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+# ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+# ShowToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+
+[params.homeInfoParams]
+Title = "About"
+ImageURL = "https://avatars.githubusercontent.com/u/1558599?v=4"
+Content = """
+Hi there, I'm Kenley [(@revrost)](https://github.com/revrost), an engineer at Immutable. I like building software. I most often talk about web APIs, Go, philosophy, soft skills, and life.
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/revrost"
+
+[[params.socialIcons]]
+name = "kofi"
+url = "https://ko-fi.com/revrost"
+
+[[languages.en.menu.main]]
+name = "Posts"
+url = "post"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
