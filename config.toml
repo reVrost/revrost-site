@@ -1,4 +1,4 @@
-baseURL = 'http://revrost.com/'
+baseURL = 'https://revrost.com/'
 languageCode = 'en-us'
 title = 'reVrost'
 theme = 'papermod'
