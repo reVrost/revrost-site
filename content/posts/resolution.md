@@ -1,12 +1,10 @@
 ---
-title: "resolution"
+title: "Resolution"
 author: "Kenley"
 date: 2024-02-11T17:20:37+11:00
 FAtags: ["thoughts", "resolution", "new", "year"]
 weight: 1
 ---
-
-## Resolution
 
 Hi world and my blog that I left in the dust for years. Today is the year 2024,
 AI is going to take over the world 16 years from now.
