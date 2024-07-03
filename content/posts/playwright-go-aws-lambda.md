@@ -29,14 +29,15 @@ ENV GOARCH=arm64
 
 # Copy go mod and sum files
 COPY go.mod go.sum ./
+
+# Download dependencies
+RUN go mod download
+
 # Copy the necessary source directories
 COPY lambda/ lambda/
 COPY pkg/ pkg/
 COPY internal/ internal/
 COPY cmd/ cmd/
-
-# Download dependencies
-RUN go mod download
 
 # Build the Go application
 RUN go build -o main ./lambda/scrape/main.go
@@ -48,13 +49,6 @@ FROM public.ecr.aws/lambda/provided:al2023
 # Install Node.js using NodeSource and DNF (confirm Node.js and npm support ARM64 in this environment)
 RUN curl -sL https://rpm.nodesource.com/setup_20.x | bash - && \
     dnf install -y nodejs
-
-# Copy the built Go binary from the build stage
-COPY --from=build /app/main ./main
-COPY --from=build /app/pwinstall ./pwinstall
-
-RUN chmod +x ./pwinstall
-RUN ./pwinstall
 
 # Install Playwright and its dependencies
 RUN dnf install -y \
@@ -71,6 +65,13 @@ RUN dnf install -y \
     libXdamage \
     libXfixes \
     mesa-libgbm \
+
+# Copy the built Go binary from the build stage
+COPY --from=build /app/main ./main
+COPY --from=build /app/pwinstall ./pwinstall
+
+RUN chmod +x ./pwinstall
+RUN ./pwinstall
 
 # Copy the Playwright installation cache
 RUN cp -r /root/.cache ./.cache
