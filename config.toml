@@ -25,7 +25,9 @@ hideSummary = false
 Title = "About"
 ImageURL = "https://avatars.githubusercontent.com/u/1558599?v=4"
 Content = """
-Hi there, I'm Kenley [(@revrost)](https://github.com/revrost), an engineer at Immutable. I like building software. I most often talk about web APIs, Go, philosophy, soft skills, and life.
+Hi there, I'm Kenley [(@revrost)](https://github.com/revrost), an engineer currently working at Immutable. I've been building software since I was 11 years old. Building product that people *uses* is my biggest passion. I am big on doing, iterating and less on omega planning. You can probably find me talking about Cloud architecture, software philosophy, stock investing, ambition and a sprinkle of LLMs.
+
+On the side I'm currently working on https://marketpal.ai. Thanks for stopping by!
 """
 
 [[params.socialIcons]]
