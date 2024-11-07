@@ -25,13 +25,15 @@ hideSummary = false
 Title = "About"
 ImageURL = "https://avatars.githubusercontent.com/u/1558599?v=4"
 Content = """
-Hi there, I'm Kenley [(@revrost)](https://github.com/revrost), an engineer currently working at Immutable. I've been building software since I was 11 years old. Building products that people *use* is my biggest passion. 
+Hi there, I'm Kenley [(@revrost)](https://github.com/revrost), an engineer currently working at Immutable. I've been building software since I was 11 years old. Building products that people *use* is my biggest passion.
 
+<br>
 
-I am all for action than inaction and value iterating over planning. You can probably find me talking about cloud architecture, software philosophy, stock investing, ambition and a sprinkle of LLMs.
+I am all for action over inaction and value iterating over planning. You can probably find me talking about cloud architecture, software philosophy, stock investing, fight club culture, and a sprinkle of LLMs.
 
+<br><br>
 
-On the side I'm currently working on https://marketpal.ai. Thanks for stopping by!
+On the side, I'm currently working on [Marketpal](https://marketpal.ai). Thanks for stopping by!
 """
 
 [[params.socialIcons]]
