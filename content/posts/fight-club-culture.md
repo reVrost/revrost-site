@@ -1,6 +1,6 @@
 ---
-title: "Fight club culture"
-date: 2024-11-07T23:33:51+10:00
+title: "Fight Club Culture"
+date: 2024-11-07T23:47:42+11:00
 ---
 
 Ever since I watched _Fight Club_ during COVID, I've been fascinated by its raw
